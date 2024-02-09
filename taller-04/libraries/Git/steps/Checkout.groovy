@@ -1,4 +1,4 @@
 
 void call() {
-    echo "Checkout"
+    println "Checkout"
 }
