@@ -1,3 +1,3 @@
 libraries {
-   git
+   Git
 }
