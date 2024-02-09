@@ -1,3 +1,21 @@
-build()
-checkout()
-deploy()
+pipeline {
+    agent any
+ 
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout()
+            }
+        }
+        stage('Build') {
+            steps {
+                build()
+            }
+        }
+        stage('Deploy') {
+            steps {
+                deploy()
+            }
+        }
+    }
+}
