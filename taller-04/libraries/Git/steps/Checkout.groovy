@@ -1,4 +1,0 @@
-
-void call() {
-    println "Checkout"
-}
